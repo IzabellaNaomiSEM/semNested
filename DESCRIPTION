@@ -1,0 +1,25 @@
+Package: semNested
+Type: Package
+Title: Test if two latent models are nested
+Version: 1.0.0
+Author: N.R.J. van Bergen <naomivanebrgen@gmail.com> and I.M. Engelmoer <i.m.v.engelmoer@gmail.com>
+Maintainer: The package maintainer <naomivanbergen@gmail.com> <i.m.v.engelmoer@gmail.com>
+Description: This package contains the function 'semNested'. It provides an 
+    easy solution for researchers to determine if two latent variable models  
+    are nested in each other. This is useful in determining whether one is allowed to 
+    compare the two models. 
+    The output of the function will contain the following outcomes: 
+    a. model 1 is nested in model 2
+    b. model 2 is nested in model 1
+    c. model 2 and model 1 are equal
+    d. model 1 and 2 are not nested in each other
+    The function is compatable with lavaan objects. 
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports:
+    lavaan,
+    semPlot,
+    graphics,
+    methods,
+    crayon
